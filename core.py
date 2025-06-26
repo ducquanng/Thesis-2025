@@ -22,6 +22,7 @@ VECTORSTORE_NAME = 'mkb_challenge_store'
 EXCEL_FILENAME = "MKB-challenge-data.xlsx"
 
 # Read API credentials from environment
+# .env file is needed for API endpoint and key
 inference = os.getenv("AZURE_AI_ENDPOINT")
 apikey = os.getenv("AZURE_AI_KEY")
 
